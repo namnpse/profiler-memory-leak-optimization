@@ -13,6 +13,9 @@
         android:theme="@style/Theme.ProfilerMemoryLeakOptimization"
         tools:targetApi="31">
         <activity
+            android:name=".memory_leak.static_object.StaticObjectActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
