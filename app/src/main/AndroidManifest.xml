@@ -13,6 +13,14 @@
         android:theme="@style/Theme.ProfilerMemoryLeakOptimization"
         tools:targetApi="31">
         <activity
+            android:name=".memory_leak.leak_canary.SecondActivity"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:exported="false" />
+        <activity
+            android:name=".memory_leak.leak_canary.FirstActivity"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:exported="false" />
+        <activity
             android:name=".profiling.NumerousGarbageCollectorActivity"
             android:exported="false" />
         <activity
